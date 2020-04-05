@@ -24,3 +24,14 @@ But in Python we use `True` and `False`
 ## NoneType
 - In python to represent Null we use `None`. Pay attention to capital `N`
 
+## User input
+- `input` is the function used to take user input.
+- The value return by `input` function is string.
+- You should convert the return from `input` call to whatever you expect as input.
+
+```python
+age = input("enter your age:") # enter 30
+type(age) # will return string
+age = int(age) # Convert it to type which you expect.
+type(age) # will return int
+``` 
