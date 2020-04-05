@@ -1,21 +1,8 @@
 ## Repo contain my learning and experiment with python
 
-## Handy command
-
-- `len` given a string print the length of that string
-```python
-len("sanjay")                                                                                                                                                                                                                     
-```
-- `type` get the type of the given input
-```python
-type("sanjay")
-```
-- `str` convert the input to its string representation
-```python
-str(9)
-```  
-
-- `float` and other similar methods
+## Built In command
+- Python has several build in commands to easy the day to day programming. 
+- Check [here](https://docs.python.org/3/library/functions.html#built-in-functions) for available built in functions.
 
 ## Boolean
 - Boolean are handled in python in a bit different way. Normal convention is to use `true` and `false` for boolean.
@@ -35,3 +22,36 @@ type(age) # will return string
 age = int(age) # Convert it to type which you expect.
 type(age) # will return int
 ``` 
+
+## Useful string function
+
+- capitalize - Change to upper case the first letter of the string.
+- title - Change to upper case first letter of all the words in the string
+- upper - Change all chars in the string to upper case
+- lower - change all chars in the string to lower case
+- count - return the total number of given char in the string. case sensitive.
+- find - return the position of a char in the string.
+- split - split the string based on the separator provided.
+
+## Tuples
+- Tuple is immutable ordered list. Can contain duplicates.
+- Tuple elements are access in same fashion as list.
+- Tuple are created using parenthesis in place of square brackets as in list.
+```python
+primes = (3,7,11)
+primes[0]
+``` 
+
+## `:` use of colon for getting elements through list.
+```python
+my_list = [1,2,3,45,56]
+print(my_list[2:4]) # prints 3, 45
+print(my_list[2:]) # prints 3, 45,56
+print(my_list[:4]) # prints 1,2,3,45
+print(my_list[::1]) # prints 1,2,3,45,56
+print(my_list[::2]) # prints 1,3,56
+print(my_list[2::2]) # prints 3,56
+print(my_list[1:4:2]) # prints 2,45
+
+```
+
