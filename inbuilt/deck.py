@@ -3,7 +3,10 @@ from collections import namedtuple
 
 card = namedtuple("card", ['rank', 'suit'])
 
-
+"""
+This class demonstrate the power of overriding the inbuilt function.
+This allow us to interact with our class in more pythonic way.
+"""
 class Deck:
 
     def __init__(self):

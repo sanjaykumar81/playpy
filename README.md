@@ -11,6 +11,20 @@ But in Python we use `True` and `False`
 ## NoneType
 - In python to represent Null we use `None`. Pay attention to capital `N`
 
+## try, except ans raise
+- `finally` block in `try` and `except` work exactly the same as `finally` block in Java
+- `else` block can be used to perform an action when there is no exception.
+- `raise` keyword is use to throw an exception.
+
+## Commonly used python packages:
+- math
+- os
+- random
+- sys
+- re
+- json
+- datetime
+
 ## User input
 - `input` is the function used to take user input.
 - The value return by `input` function is string.
@@ -42,7 +56,7 @@ primes = (3,7,11)
 primes[0]
 ``` 
 
-## `:` use of colon for getting elements through list.
+## `:` `slicing` use of colon for getting elements through list.
 ```python
 my_list = [1,2,3,45,56]
 print(my_list[2:4]) # prints 3, 45
@@ -55,3 +69,7 @@ print(my_list[1:4:2]) # prints 2,45
 
 ```
 
+## `classmethod` vs `staticmethod` 
+- `classmethod` and `staticmethod` behave a bit similarly. 
+- Difference is a class method will take a class reference as argument along with other argument(if needed), where are in `@staticmethod` no argument are mandatory.
+ 
